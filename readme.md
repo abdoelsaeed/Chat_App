@@ -4,7 +4,7 @@
 This project is a real-time chat application built using js, Node.js, Express, css, HTML, and Socket.IO. It allows users to create chat rooms, exchange text messages, send voice notes and share photos.
 
 # Screenshot
-![photo]("uploads\1723087277213.jpg")
+![photo]("  s\uploads\1723087277213.jpg")
 # Features 🎖️
 - Authentication with JWT (Reset Password with email)
 - Login (User/Admin)
