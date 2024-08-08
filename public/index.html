@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socket.io Rooms</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        input {
+            padding: 10px;
+            margin: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        #joinRoom{
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgb(0, 156, 127);;
+            color: white;
+            cursor: pointer;
+        }
+        a{
+            padding: 10px 20px;
+            margin: 5px;
+            color:white;
+            outline: none;
+            text-decoration: none;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input id="username" type="text" placeholder="Enter your name">
+        <input id="roomInput" type="text" placeholder="Enter room name">
+
+        <button id="joinRoom">Join Room</button>
+        
+    </div>
+
+    <div id="messages"></div>
+
+    <script>
+
+        const socket = io("http://localhost:3000/",{
+        });
+
+        document.getElementById('joinRoom').addEventListener('click', () => {
+            
+            const room = document.getElementById('roomInput').value;
+            const name = document.getElementById('username').value;
+
+             window.location.href = `/${room}/${name}`;;
+        socket.emit('joinRoom', room,name);
+        });
+
+    </script>
+</body>
+</html>
