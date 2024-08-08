@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io("http://localhost:3000/",{});
 
 const numSockets = document.getElementById("clients-total");
 const messageTone = new Audio('./../message-tone.mp3')

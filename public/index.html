@@ -53,14 +53,15 @@
 
     <script>
 
-        const socket = io();
+        const socket = io("http://localhost:3000/",{
+        });
 
         document.getElementById('joinRoom').addEventListener('click', () => {
             
             const room = document.getElementById('roomInput').value;
             const name = document.getElementById('username').value;
 
-             window.location.href = `https://chat-app-gules-eight.vercel.app/${room}/${name}`;;
+             window.location.href = `/${room}/${name}`;;
         socket.emit('joinRoom', room,name);
         });
 
