@@ -53,7 +53,7 @@
 
     <script>
 
-        const socket = io("https://chat-app-gules-eight.vercel.app/",{
+        const socket = io("https://chat-i41du5aae-abdoelsaeeds-projects.vercel.app",{
         });
 
         document.getElementById('joinRoom').addEventListener('click', () => {
@@ -61,7 +61,7 @@
             const room = document.getElementById('roomInput').value;
             const name = document.getElementById('username').value;
 
-             window.location.href = `https://chat-app-gules-eight.vercel.app/${room}/${name}`;;
+             window.location.href = `/${room}/${name}`;;
         socket.emit('joinRoom', room,name);
         });
 
