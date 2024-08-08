@@ -5,6 +5,8 @@ This project is a real-time chat application built using js, Node.js, Express, c
 
 # Screenshot
 ![photo]("https://github.com/abdoelsaeed/Chat_App/blob/main/uploads/1723087277213.jpg")
+![photo]("https://github.com/abdoelsaeed/Chat_App/blob/main/uploads/1723087882230.jpg")
+
 # Features 🎖️
 - Authentication with JWT (Reset Password with email)
 - Login (User/Admin)
