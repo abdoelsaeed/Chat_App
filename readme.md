@@ -35,26 +35,19 @@ This project is a real-time chat application built using js, Node.js, Express, c
 - Validator: Library to validate and sanitize strings.
 - mongoSanitizer: Data sanitization against nosql query injection
 
-# Deploy api 
-Domin [https://quizapp-q.up.railway.app/](https://quizapp-q.up.railway.app/)
 
-# API Documentation 
-Postman Doc [here](https://web.postman.co/workspace/My-Workspace~cfcd2dc7-c94a-48a7-885c-9245a114ac86/collection/32765959-c7eb6c50-2bb7-4159-9725-851008ec6a7e).
 
 
 # 🚀 Getting Started
 1. **Clone this repository to your local machine**
     ```sh
-    git clone https://github.com/abdoelsaeed/QuizApp.git
-    ```
+    git clone https://github.com/abdoelsaeed/Chat_App.git
 
 2. **Install Dependencies**
     ```sh
     npm install
     ```
 
-3. **Set Up Environment Variables**:
-    Create a `.env` file in the root directory of the project and configure the required environment variables.
 
 4. **Start the Development Server**:
     ```sh
