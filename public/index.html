@@ -60,7 +60,7 @@
             const room = document.getElementById('roomInput').value;
             const name = document.getElementById('username').value;
 
-             window.location.href = `/${room}/${name}`;;
+             window.location.href = `https://chat-app-gules-eight.vercel.app/${room}/${name}`;;
         socket.emit('joinRoom', room,name);
         });
 
