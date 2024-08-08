@@ -8,36 +8,16 @@ This project is a real-time chat application built using js, Node.js, Express, c
 ![photo](https://github.com/abdoelsaeed/Chat_App/blob/main/uploads/1723087882230.jpg)
 
 # Features 🎖️
-- Authentication with JWT (Reset Password with email)
-- Login (User/Admin)
-- Register
-- Forgot Password
-- Admin Routes
-- CRUD Operations questions, answers, users
-- CRUD operations for categories
-- CRUD operations for users
-- Pagination and search where necessary
-- API Security (NoSQL Injections, XSS Attacks, http param pollution etc)
-- User:You can find out your rank in the quiz
-- Teachers: Certificates of appreciation are sent to all students who obtain the final grade  
-- Email Notifications: Sending emails for various events like sign-up, password reset using Nodemailer  & gmail
+- Room Creation: Users can create chat rooms with unique names.
+- Real-Time Messaging: Exchange text messages instantly within the chat rooms.
+- Voice Notes: Record and send voice notes to other users.
+- Photo Sharing: Share photos with other users.
 
 # Technologies Used
-- Node.js: JavaScript runtime built on Chrome's V8 JavaScript engine.
-- Express: Fast, unopinionated, minimalist web framework for Node.js.
-- Mongoose: Elegant MongoDB object modeling for Node.js.
-- MongoDB: NoSQL database for storing data.
-- JWT: JSON Web Token for secure user authentication.
-- Pug: Template engine for server-side rendering.
-- Nodemailer: Module for sending emails from Node.js applications.
-- Helmet: Secure HTTP headers middleware.
-- CORS: Middleware to enable Cross-Origin Resource Sharing.
-- Dotenv: Module to load environment variables from a .env file.
-- Bcrypt: Library to hash passwords.
-- Validator: Library to validate and sanitize strings.
-- mongoSanitizer: Data sanitization against nosql query injection
-
-
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js, Express
+- Real-Time Communication: Socket.IO
+- Language: JavaScript
 
 
 # 🚀 Getting Started
